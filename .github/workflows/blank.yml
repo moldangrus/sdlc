@@ -21,7 +21,7 @@ jobs:
 
       - name: Configure Workspace
         run: |
-          terraform worksplace new dev || terraform workspace select dev
+          terraform workspace new dev || terraform workspace select dev
 
 
           - name: Plan
