@@ -24,8 +24,8 @@ jobs:
           terraform workspace new dev || terraform workspace select dev
 
 
-          - name: Plan
-          run: |
+      - name: Plan
+        run: |
             terraform plan
 
 
