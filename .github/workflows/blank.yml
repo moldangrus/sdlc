@@ -26,7 +26,7 @@ jobs:
 
       - name: Plan
         run: |
-            terraform plan
+          terraform plan
 
 
 
