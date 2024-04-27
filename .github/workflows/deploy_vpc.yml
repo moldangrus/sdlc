@@ -5,7 +5,7 @@ name: deploy vpc
 on:
   push:
     paths:
-      -"vpc/**"
+      - "vpc/**"
 
 
 
