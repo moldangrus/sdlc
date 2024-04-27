@@ -31,6 +31,13 @@ jobs:
         run: |
           terraform plan
 
+      - name: Apply
+        working-directory: vpc
+        run: |
+          echo "applying"
+          #terraform apply -auto-approve
+  
+  
 
 
 
