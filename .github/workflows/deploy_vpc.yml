@@ -9,8 +9,6 @@ on:
       master
     
 
-
-
 jobs:
   build:
     runs-on: ubuntu-latest #windows-latest #mac-latest
@@ -42,8 +40,7 @@ jobs:
       - name: Apply
         working-directory: vpc
         run: |
-          echo "applying"
-          terraform apply -auto-approve
+          terraform destroy -auto-approve
   
   
 
